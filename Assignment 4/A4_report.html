@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 4</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 4</small>
+			Persuasive or Deceptive Visualization?
+		</h1>
+
+		<p>
+			<strong>Subhash Kantamneni</strong> — <em>subhashk@mit.edu</em>
+		</p>
+	</header>
+
+	<main>
+    <h2>Proposition: Abortions have been more difficult to get in Republican states (Note that I used voting data from 2020 Presidential Election to get political leanings)</h2>
+
+	<section>
+		<h3>FOR the Proposition</h3>
+	
+		<figure>
+			<img src="plots/top10_travel.png" alt="Top 10 States by Out-of-State Abortion Travel" width="100%" />
+			<figcaption>
+				The data shows that the states where residents travel out-of-state for abortions tend to be Republican-leaning.
+			</figcaption>
+		</figure>
+	
+		<p>
+			Design Decisions and Rationale:
+		</p>
+	
+		<ul>
+			<li>
+				<strong>Focusing on the Top 10 States (-1, Slightly Deceptive)</strong>: 
+				I decided to highlight only the top 10 states to make the trend easier to see at a glance. While this does leave out the full picture and might obscure broader patterns, it helps keep the message clear and impactful.
+			</li>
+			<li>
+				<strong>Color Coding by Political Leaning (1, Mostly Earnest)</strong>: 
+				Using red for Republican-leaning states and blue for Democratic-leaning ones makes it visually obvious where the trend lies. This choice helps clarify the argument, though I recognize it might reinforce existing political assumptions.
+			</li>
+			<li>
+				<strong>Including Percentage Labels (2, Fully Earnest)</strong>: 
+				Adding the exact percentages makes the data more transparent and prevents any misinterpretation. I wanted to make sure the visualization stands on its own without requiring extra explanation.
+			</li>
+			<li>
+				<strong>Sorting in Descending Order (1, Mostly Earnest)</strong>: 
+				By ordering states from highest to lowest, the pattern becomes more obvious. While this does emphasize the most extreme cases, I think it helps drive home the point without being misleading.
+			</li>
+		</ul>
+	</section>
+	
+
+    <<section>
+		<h3>AGAINST the Proposition</h3>
+	
+		<figure>
+			<img src="plots/nodiff.png" alt="Blue and Red states by out-of-state abortion travel." width="100%" />
+			<figcaption>
+				The visualization makes it seem like the total burden of out-of-state travel is balanced across political lines, which challenges the idea that Republican states uniquely restrict abortion access.
+			</figcaption>
+		</figure>
+	
+		<p>
+			Design Decisions and Rationale:
+		</p>
+	
+		<ul>
+			<li>
+				<strong>Creating Equal Visual Mass (-1, Slightly Deceptive)</strong>: 
+				I structured the visualization so that the total blue and red areas seem roughly equal, making it less obvious that Republican states may have a higher burden. This helps downplay the argument without manipulating the data itself.
+			</li>
+			<li>
+				<strong>Using a Bubble Chart Instead of a Bar Chart (0, Neutral)</strong>: 
+				Bubble charts make it harder to directly compare total volume, which can introduce ambiguity in how viewers interpret the relative scale of the issue.
+			</li>
+			<li>
+				<strong>Grouping States by Political Leaning (1, Mostly Earnest)</strong>: 
+				Keeping Democratic and Republican states separate ensures that the audience can still recognize the grouping but forces them to visually assess the differences rather than just reading a comparison.
+			</li>
+		</ul>
+	</section>
+    <section>
+      <h2>Final Reflection</h2>
+
+      <p>I think it's interesting that there seems to be a direct tradeoff between creativity of a visualization and its bias. A creative design inherently has more levers to pull to deliver the message to the audience in the correct way. That's not to say there isn't bias inherent in standard bar/line charts, but I think as we complexify our visualizations and make them more personal, we add a dimension of bias that is important to consider. For example, I was very interested in forming a bubble chart, but I found that there was a parameter of ''bubble distance'' that directly affected the overall takeaway of the chart. This free parameter simply doesn't exist in the same way for a standard bar/line chart.</p>
+
+	  <p>The more I do these visualizations, the more I see the bias as similar to writing. Everyone has bias when they write, because we are sharing something personal about ourselves which will naturally be subjective. Even when we write about objective matters, our views and perspectives on the topic naturally arise. I think the same is true for visualization, but it's more dangerous because the audience expects bias less, because people associate figures/data with truth. What's most important for me is to probe myself while making the visualization to make sure my own intentions are good, and at the end of the day all we can do is all we can do.</p>
+    </section>
+	</main>
+</body>
+</html>
